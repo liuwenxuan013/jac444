@@ -10,13 +10,6 @@ public class Car implements Serializable {
     private String color;
     private double mileage;
     private String plate;
-//    public Car() throws RemoteException {
-//        super();
-//        model = null;
-//        color = null;
-//        mileage = 0.0;
-//        plate = null;
-//    }
 
     public Car(String model, String color, double mile) {
         setModel(model);
